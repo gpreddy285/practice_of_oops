@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nonvoid_with_noparameters.cs" />
     <Compile Include="name_with_parameters.cs" />
     <Compile Include="name_without_parameters .cs" />
     <Compile Include="void_and_parameterless.cs" />

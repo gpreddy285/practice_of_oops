@@ -22,6 +22,10 @@ namespace practice_C
             nwop.name();
             name_with_parameters nwp=new name_with_parameters();
             nwp.nameparameters("prasad");
+            nonvoid_with_noparameters nwno = new nonvoid_with_noparameters();
+            int result=nwno.sum();
+            Console.WriteLine("The result of return c is :"+result);
+
         }
     }
 }
