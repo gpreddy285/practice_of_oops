@@ -18,6 +18,10 @@ namespace practice_C
             void_and_parameterized no=new void_and_parameterized();
             no.add(10, 20);
             no.greet(10);
+            name_wihout_parameters nwop=new name_wihout_parameters();
+            nwop.name();
+            name_with_parameters nwp=new name_with_parameters();
+            nwp.nameparameters("prasad");
         }
     }
 }
