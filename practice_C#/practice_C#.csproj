@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="parametersandnoreturntype.cs" />
+    <Compile Include="void_and_parameterless.cs" />
+    <Compile Include="void_and_parameterized.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

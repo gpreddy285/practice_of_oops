@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace practice_C_
 {
-    internal class parametersandnoreturntype
+    internal class void_and_parameterized
     {
         public void add(int a,int b)
         {
