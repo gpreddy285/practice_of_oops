@@ -14,7 +14,7 @@ namespace practice_C_
             Console.WriteLine("Student id is:"+student_id);
             Console.WriteLine("student name is :" + studentname);
             Console.WriteLine("student age is :" + student_age);
-            Console.WriteLine("student college is :" + collge_name);
+            Console.WriteLine("student college is :"+collge_name);
         }
     }
 }

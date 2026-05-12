@@ -12,16 +12,18 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-           student std1=new student();
-            std1.stddetails(332, "prasad", 26);
-            student std2=new student();
-            std2.stddetails(333, "anil", 27);
-            student std3=new student();
-            std3.stddetails(334, "sandeep", 25);
-            student std4=new student();
-            std4.stddetails(335, "saikumar", 29);
-            student std5=new student();
-            std5.stddetails(336, "akash", 28);
+           for(int i=1;i<=25;i++)
+            {
+                Console.WriteLine("Enter student id:");
+                int stdid=int.Parse(Console.ReadLine());
+                Console.WriteLine("enter student name:");
+                string stdname=Console.ReadLine();
+                Console.WriteLine("Enter student age:"); 
+                int stdage=int.Parse(Console.ReadLine());
+                student std=new student();
+                std.stddetails(stdid, stdname, stdage);
+
+            }
 
 
         }
