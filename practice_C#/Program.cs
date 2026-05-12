@@ -12,7 +12,9 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-           for(int i=1;i<=25;i++)
+            Console.WriteLine("How many student information you want to enter");
+            int n=int.Parse(Console.ReadLine());
+           for(int i=1;i<=n;i++)
             {
                 Console.WriteLine("Enter student id:");
                 int stdid=int.Parse(Console.ReadLine());
