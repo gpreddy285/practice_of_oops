@@ -25,18 +25,29 @@ namespace practice_C
             //    student std = new student();
             //    std.stddetails(stdid, stdname, stdage);
             //}
-            student_array[] student = new student_array[3];
-            for(int i=0;i<student.Length;i++)
+            //student_array[] student = new student_array[3];
+            //for(int i=0;i<student.Length;i++)
+            //{
+            //    student[i] = new student_array();
+            //    student[i].getdetails();
+            //}
+            //for(int i=0;i<student.Length;i++)
+            //{
+            //    student[i].displaydetails();
+            //    student_array.displaycollege();
+            //}
+    
+            Employee[] emp = new Employee[3];
+            for (int i = 0; i < emp.Length; i++)
             {
-                student[i] = new student_array();
-                student[i].getdetails();
+                emp[i] = new Employee();
+                emp[i].EmployeeDetails();
             }
-            for(int i=0;i<student.Length;i++)
+            for (int i = 0; i <emp.Length; i++)
             {
-                student[i].displaydetails();
-                student_array.displaycollege();
+                emp[i].DisplayEmployeeDetails();
             }
-           
+
         }
     }
 }
