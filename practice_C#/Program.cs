@@ -12,22 +12,31 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How many student information you want to enter");
-            int n=int.Parse(Console.ReadLine());
-           for(int i=1;i<=n;i++)
+            //Console.WriteLine("How many students information you want to enter");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    Console.WriteLine("Enter student id:");
+            //    int stdid = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("enter student name:");
+            //    string stdname = Console.ReadLine();
+            //    Console.WriteLine("Enter student age:");
+            //    int stdage = int.Parse(Console.ReadLine());
+            //    student std = new student();
+            //    std.stddetails(stdid, stdname, stdage);
+            //}
+            student_array[] student = new student_array[3];
+            for(int i=0;i<student.Length;i++)
             {
-                Console.WriteLine("Enter student id:");
-                int stdid=int.Parse(Console.ReadLine());
-                Console.WriteLine("enter student name:");
-                string stdname=Console.ReadLine();
-                Console.WriteLine("Enter student age:"); 
-                int stdage=int.Parse(Console.ReadLine());
-                student std=new student();
-                std.stddetails(stdid, stdname, stdage);
-
+                student[i] = new student_array();
+                student[i].getdetails();
             }
-
-
+            for(int i=0;i<student.Length;i++)
+            {
+                student[i].displaydetails();
+                student_array.displaycollege();
+            }
+           
         }
     }
 }

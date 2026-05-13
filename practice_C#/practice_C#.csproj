@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="student_array.cs" />
     <Compile Include="student.cs" />
     <Compile Include="instance_method.cs" />
     <Compile Include="return_with_noparameters.cs" />
