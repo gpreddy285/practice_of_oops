@@ -37,16 +37,25 @@ namespace practice_C
             //    student_array.displaycollege();
             //}
     
-            Employee[] emp = new Employee[3];
-            for (int i = 0; i < emp.Length; i++)
-            {
-                emp[i] = new Employee();
-                emp[i].EmployeeDetails();
-            }
-            for (int i = 0; i <emp.Length; i++)
-            {
-                emp[i].DisplayEmployeeDetails();
-            }
+           //Employee[] emp = new Employee[3];
+           // for (int i = 0; i < emp.Length; i++)
+           // {
+           //     emp[i] = new Employee();
+           //     emp[i].EmployeeDetails();
+           // }
+           // for (int i = 0; i <emp.Length; i++)
+           // {
+           //     emp[i].DisplayEmployeeDetails();
+           // }
+           Employee salemp=new Employee();
+            salemp.DisplayEmployeeDetails();
+            double hike=salemp.salaryhike();
+            Console.WriteLine("salary hike for your salary :"+hike);
+           
+            //constructor my = new constructor();
+            //my.greet();
+            //int greet2res = my.greet2();
+            //Console.WriteLine(" Greet 2 result is :" + greet2res);
 
         }
     }
