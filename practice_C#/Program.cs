@@ -36,26 +36,36 @@ namespace practice_C
             //    student[i].displaydetails();
             //    student_array.displaycollege();
             //}
-    
-           //Employee[] emp = new Employee[3];
-           // for (int i = 0; i < emp.Length; i++)
-           // {
-           //     emp[i] = new Employee();
-           //     emp[i].EmployeeDetails();
-           // }
-           // for (int i = 0; i <emp.Length; i++)
-           // {
-           //     emp[i].DisplayEmployeeDetails();
-           // }
-           Employee salemp=new Employee();
-            salemp.DisplayEmployeeDetails();
-            double hike=salemp.salaryhike();
-            Console.WriteLine("salary hike for your salary :"+hike);
-           
-            //constructor my = new constructor();
+
+            //Employee[] emp = new Employee[3];
+            // for (int i = 0; i < emp.Length; i++)
+            // {
+            //     emp[i] = new Employee();
+            //     emp[i].EmployeeDetails();
+            // }
+            // for (int i = 0; i <emp.Length; i++)
+            // {
+            //     emp[i].DisplayEmployeeDetails();
+            // }
+            //Employee salemp=new Employee();
+            // salemp.DisplayEmployeeDetails();
+            // double hike=salemp.salaryhike();
+            // Console.WriteLine("salary hike for your salary :"+hike);
+
+            // //constructor my = new constructor();
             //my.greet();
             //int greet2res = my.greet2();
             //Console.WriteLine(" Greet 2 result is :" + greet2res);
+            //    parameterized_constructor pc = new parameterized_constructor(007,"anil",134000);
+            //    pc.custdisplay();
+            //    parameterized_constructor pc1 = new parameterized_constructor(8, "sandy", 120000);
+            //    pc1.custdisplay();
+
+            //passing connection via parameterized constructor
+            string connstring = "Server=.;InitialCatalog=practicedb;Integrated Security=True;";
+            dbconnection db=new dbconnection(connstring);
+            db.openconnection();
+            db.closeconnection();
 
         }
     }
