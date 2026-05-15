@@ -62,10 +62,15 @@ namespace practice_C
             //    pc1.custdisplay();
 
             //passing connection via parameterized constructor
-            string connstring = "Server=.;InitialCatalog=practicedb;Integrated Security=True;";
-            dbconnection db=new dbconnection(connstring);
-            db.openconnection();
-            db.closeconnection();
+            //string connstring = "Server=.;InitialCatalog=practicedb;Integrated Security=True;";
+            //dbconnection db=new dbconnection(connstring);
+            //db.openconnection();
+            //db.closeconnection();
+
+            carexample ce = new carexample("white", "bugado", 2022);
+            ce.cardisplay();
+            carexample ce1 = new carexample("black", "ford", 1799);
+            ce1.cardisplay();
 
         }
     }

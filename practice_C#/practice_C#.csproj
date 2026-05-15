@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carexample.cs" />
     <Compile Include="dbconnection.cs" />
     <Compile Include="parameterized_constructor.cs" />
     <Compile Include="constructor.cs" />
