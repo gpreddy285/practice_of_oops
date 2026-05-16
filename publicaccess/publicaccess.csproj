@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{43254FBA-BA5F-4691-9F54-55A4078CBDA4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>practice_C_</RootNamespace>
-    <AssemblyName>practice_C#</AssemblyName>
+    <ProjectGuid>{E4A6B5D0-1295-4683-A9A7-CEB166282B52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>publicaccess</RootNamespace>
+    <AssemblyName>publicaccess</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="publicaccess">
-      <HintPath>..\publicaccess\bin\Debug\publicaccess.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,25 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="carexample.cs" />
-    <Compile Include="dbconnection.cs" />
-    <Compile Include="parameterized_constructor.cs" />
-    <Compile Include="constructor.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="student_array.cs" />
-    <Compile Include="student.cs" />
-    <Compile Include="instance_method.cs" />
-    <Compile Include="return_with_noparameters.cs" />
-    <Compile Include="nonvoid_with_noparameters.cs" />
-    <Compile Include="name_with_parameters.cs" />
-    <Compile Include="name_without_parameters .cs" />
-    <Compile Include="void_and_parameterless.cs" />
-    <Compile Include="void_and_parameterized.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="publicaccesstudent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
