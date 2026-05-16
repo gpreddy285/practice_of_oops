@@ -14,10 +14,9 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-            publicstudent ps1 = new publicstudent();
-            ps1.publicdisplay();
-            publicemp ps2 = new publicemp();
-            ps2.empdetails();
+           bankex be = new bankex();
+            be.deposit(10000);
+            be.showbalance();
 
         }
     }

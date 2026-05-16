@@ -8,9 +8,9 @@ namespace publicaccessemployee
 {
     public class publicemp
     {
-        public int empid=111;
-        public string empname="kumar";
-        public int empsalary=100000;
+        private int empid=111;
+        private string empname="kumar";
+        private int empsalary=100000;
         public void empdetails()
         {
             Console.WriteLine("Employee id is :"+empid);
