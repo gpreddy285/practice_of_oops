@@ -8,7 +8,6 @@ namespace publicaccess
 {
     public class publicstudent
     {
-
         public int stdid = 1;
         public string stdname = "prasad";
         public int stdage = 27;

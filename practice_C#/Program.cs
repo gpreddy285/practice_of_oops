@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using publicaccess;
+using publicaccessemployee;
 
 namespace practice_C
 { 
@@ -15,6 +16,8 @@ namespace practice_C
         {
             publicstudent ps1 = new publicstudent();
             ps1.publicdisplay();
+            publicemp ps2 = new publicemp();
+            ps2.empdetails();
 
         }
     }
