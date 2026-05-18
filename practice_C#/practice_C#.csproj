@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="carexample.cs" />
     <Compile Include="bankex.cs" />
+    <Compile Include="Internall.cs" />
+    <Compile Include="studentconst.cs" />
     <Compile Include="dbconnection.cs" />
     <Compile Include="parameterized_constructor.cs" />
     <Compile Include="constructor.cs" />

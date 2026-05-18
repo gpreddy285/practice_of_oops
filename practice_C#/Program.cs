@@ -14,9 +14,22 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-           bankex be = new bankex();
-            be.deposit(10000);
-            be.showbalance();
+            //studentconst sn = new studentconst();
+            //sn.displaystudent();
+            //studentconst sn1 = new studentconst(101);
+            //sn1.displaystudent();
+            ////studentconst sn2 = new studentconst("prasad");
+            ////sn2.displaystudent();
+            //studentconst sn3 = new studentconst(102,"anil");
+            //sn3.displaystudent();
+            //name_wihout_parameters nwp=new name_wihout_parameters();
+            //nwp.name();
+            //name_with_parameters nwp1= new name_with_parameters();
+            //nwp1.nameparameters("ashok");
+            internall2 in2=new internall2();
+            in2.displayinternal2();
+
+ 
 
         }
     }
