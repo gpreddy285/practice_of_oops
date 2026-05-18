@@ -26,9 +26,7 @@ namespace practice_C
             //nwp.name();
             //name_with_parameters nwp1= new name_with_parameters();
             //nwp1.nameparameters("ashok");
-            internall2 in2=new internall2();
-            in2.displayinternal2();
-
+            
  
 
         }

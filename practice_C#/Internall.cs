@@ -8,11 +8,10 @@ namespace practice_C_
 {
     internal class internall
     {
-       internal  int a;
+        internal int a;
         public internall()
         {
             a = 100;
-
         }
         public void displayinternal()
         {
@@ -23,8 +22,17 @@ namespace practice_C_
     {
         public void displayinternal2()
         {
-            internall in1= new internall();
+            internall in1 = new internall();
             Console.WriteLine("the value of a under internall 2 is :" + in1.a);
+        }
+    }
+    internal class program
+    {
+        static void Main(string[] args)
+        {
+            internall2 in2 = new internall2();
+            in2.displayinternal2();
+
         }
     }
 }
