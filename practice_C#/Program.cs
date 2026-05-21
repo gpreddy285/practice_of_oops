@@ -9,23 +9,16 @@ using publicaccessemployee;
 
 namespace practice_C
 { 
-    
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Enter customer id :");
-            int id = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter customer name :");
-            string name = Console.ReadLine();
-            Console.WriteLine("Enter customer department name :");
-            string dept = Console.ReadLine();
-
-            thiskeyword nw = new thiskeyword(id, name, dept);
-            nw.custdisplay();
-
-
+            vehicle vn1 = new vehicle();
+            vn1.displayvehicle();
+            vehicle vn2 = new vehicle(1077, "mahindra", "XUV700");
+            vn2.displayvehicle();
+            vehicle vn3 = new vehicle(1011,"mahindra","XUV400");
+            vn3.displayvehicle();
         }
     }
 }
