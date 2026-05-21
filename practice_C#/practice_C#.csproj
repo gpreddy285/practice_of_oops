@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="carexample.cs" />
     <Compile Include="bankex.cs" />
+    <Compile Include="thiskeyword.cs" />
     <Compile Include="Internall.cs" />
     <Compile Include="studentconst.cs" />
     <Compile Include="dbconnection.cs" />

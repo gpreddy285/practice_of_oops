@@ -14,20 +14,17 @@ namespace practice_C
     {
         static void Main(string[] args)
         {
-            //studentconst sn = new studentconst();
-            //sn.displaystudent();
-            //studentconst sn1 = new studentconst(101);
-            //sn1.displaystudent();
-            ////studentconst sn2 = new studentconst("prasad");
-            ////sn2.displaystudent();
-            //studentconst sn3 = new studentconst(102,"anil");
-            //sn3.displaystudent();
-            //name_wihout_parameters nwp=new name_wihout_parameters();
-            //nwp.name();
-            //name_with_parameters nwp1= new name_with_parameters();
-            //nwp1.nameparameters("ashok");
-            
- 
+
+            Console.WriteLine("Enter customer id :");
+            int id = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter customer name :");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter customer department name :");
+            string dept = Console.ReadLine();
+
+            thiskeyword nw = new thiskeyword(id, name, dept);
+            nw.custdisplay();
+
 
         }
     }

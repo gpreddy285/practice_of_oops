@@ -26,13 +26,5 @@ namespace practice_C_
             Console.WriteLine("the value of a under internall 2 is :" + in1.a);
         }
     }
-    internal class program
-    {
-        static void Main(string[] args)
-        {
-            internall2 in2 = new internall2();
-            in2.displayinternal2();
-
-        }
-    }
+   
 }
