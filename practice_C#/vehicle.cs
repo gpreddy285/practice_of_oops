@@ -8,7 +8,6 @@ namespace practice_C_
 {
     internal class vehicle
     {
-        
             public int vehicleno;
             public string vehiclename;
             public string vehiclemodel;
@@ -24,6 +23,11 @@ namespace practice_C_
                 this.vehiclename = vehiclename;
                 this.vehiclemodel = vehiclemodel;
             }
+        public vehicle(string vehiclename,string vehiclemodel)
+        {
+            this.vehiclename= vehiclename;
+            this.vehiclemodel= vehiclemodel;
+        }
             public void displayvehicle()
             {
                 Console.WriteLine("Vehicle number is :" + vehicleno);

@@ -19,6 +19,8 @@ namespace practice_C
             vn2.displayvehicle();
             vehicle vn3 = new vehicle(1011,"mahindra","XUV400");
             vn3.displayvehicle();
+            vehicle vn4 = new vehicle("lambo","galado");
+            vn4.displayvehicle();
         }
     }
 }
